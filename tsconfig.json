@@ -1,0 +1,38 @@
+// {
+//   "compilerOptions": {
+//     "module": "commonjs",
+//     "noImplicitReturns": false,
+//     "noUnusedLocals": true,
+//     "outDir": "lib",
+//     "sourceMap": true,
+//     "strict": true,
+//     "target": "es2017",
+//     "noImplicitAny": false,
+//   },
+//   "compileOnSave": true,
+//   "include": [
+//     "src"
+//   ]
+// }
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "outDir": "lib",
+    "sourceMap": true,
+    "target": "es2017",
+    "baseUrl": "./",
+  },
+  "compileOnSave": true,
+  "include": [
+    "src"
+  ],
+  "typeRoots": [
+    "node_modules/@types",
+    "src/local-types"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/local-types/**"
+]
+}
