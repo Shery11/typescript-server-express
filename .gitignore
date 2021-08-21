@@ -10,4 +10,5 @@ typings/
 
 # Node.js dependency directory
 node_modules/
-functions/src/api/config.ts
+src/api/config.ts
+lib/
